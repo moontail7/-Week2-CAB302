@@ -1,3 +1,7 @@
+import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
+
 public class ToDoList {
     private User user;
     private boolean isRunning;
@@ -88,6 +92,7 @@ public class ToDoList {
         Scanner scanner = new Scanner(System.in);
         String description = scanner.nextLine();
         // TODO Now: Call the add(ToDoItem item) method of the user's to-do items list to add a new item
+
     }
 
     /**
